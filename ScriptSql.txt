@@ -1,0 +1,6 @@
+CREATE DATABASE notes;
+USE notes;
+CREATE TABLE Notes (    id         INT           NOT NULL  AUTO_INCREMENT,    nome       VARCHAR(40),    texto TEXT,    PRIMARY KEY (ID) ); 
+INSERT INTO Notes (nome, texto) VALUES ('Hello World','Lorem Ipsum'); 
+INSERT INTO Notes (nome, texto) VALUES Lor','Ips'); 
+INSERT INTO Notes (nome, texto) VALUES ('Teste','Um lembrete de teste'); 
